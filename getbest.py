@@ -24,6 +24,7 @@ def findTop(f,num_col, mark_col):
             best_idx = data[num_col] 
     return best_idx, best
 
+# Main program to read the file, identify the columns, find the top student, and print the result
 if __name__ == '__main__':
     f = open(sys.argv[1])
     num_col, mark_col = getCols(f)

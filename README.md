@@ -12,4 +12,4 @@ and mark of the top student. You can assume that all data files are in the corre
 Fixes were done in the dev branch by ensuring the column index increments appropriately. Additionally, the best_idx is now updated appropriately.
 
 To run the code use: python getbest.py data.csv
-To run the tests use: python getbest.py data.csv
+To run the tests use: python -m unittest
